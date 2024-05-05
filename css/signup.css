@@ -1,0 +1,104 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.sign-up {
+    display: flex;
+    height: 100vh;
+}
+
+.sign-image img {
+    max-width: 95%;
+    height: auto;
+}
+
+.sign-input {
+    max-width: 400px;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: left;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: -55px;
+}
+
+.sign-title img {
+    max-width: 230px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.name,
+.email,
+.password {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 370px;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.d-grid {
+    text-align: center;
+}
+
+.btn-primary {
+    width: 370px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.google-signin {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.google-signin button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.google-signin img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input {
+
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.button {
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.button p {
+    margin-top: 10px;
+}
